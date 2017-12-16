@@ -1,0 +1,58 @@
+body {
+    margin: 0%;
+}
+.navigation {
+    padding: 2% 2% 1% 2%;
+    border-bottom: 4px deeppink solid;
+    background: black;
+    color: ghostwhite;
+
+
+}
+.logo {
+
+}
+.nav-links{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+ }
+.nav-list{
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 30%;
+}
+@media all and (max-width: 800px) {
+    .nav-links{
+        justify-content: space-evenly;
+    }
+}
+.nav-list li {
+    display: inline;
+    padding: 1% 5%;
+    margin: 1% 2%;
+    font-size: 24px;
+}
+.nav-list a, a {
+    display: inline;
+    text-decoration: none;
+    color: ghostwhite;
+}
+.main-view{
+    width: 60%;
+    margin: auto;
+}
+.img-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.img-img-list{
+    flex: auto;
+    margin: 2px;
+    padding: 2px;
+    width: 30%
+}

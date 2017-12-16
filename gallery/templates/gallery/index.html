@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'gallery/main.css' %}" >
+    <title>Maddie's Pics | Home</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo">
+            <h1><a href="{% url 'gallery:index' %}">Madison Alexander Photography</a></h1>
+        </div>
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li><strong><a href="#">About</a></strong></li>
+                <li><strong><a href="#">Gallery</a></strong></li>
+                <li><strong><a href="#">Contact</a></strong></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-view">
+        <div class="img-list row">
+            {% for image in image_list %}
+{#                <div class="col">#}
+                    <img src="{{ image.image.url }}" alt="{{ image.description }}" class="img-img-list">
+{#                </div>#}
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>
