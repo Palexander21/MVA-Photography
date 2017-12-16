@@ -24,12 +24,44 @@
     </nav>
     <main class="main-view">
         <div class="img-list row">
-            {% for image in image_list %}
-{#                <div class="col">#}
-                    <img src="{{ image.image.url }}" alt="{{ image.description }}" class="img-img-list">
-{#                </div>#}
+            <div class="col">
+                {% for image in image_list %}
+                    <img src="{{ image.image.url }}" alt="{{ image.description }}" class="img-img-list" onclick="openImg(this);">
+                {% if forloop.counter|divisibleby:5 %}
+                    </div>
+                    {% if forloop.counter < 20 %}
+                        <div class="col">
+                    {% endif %}
+                {% endif %}
             {% endfor %}
+           </div>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modal-img">
+          <div id="caption"></div>
         </div>
     </main>
 </body>
+
+
+<script>
+    function openImg(imgs) {
+        modal = document.getElementById('myModal');
+        var modalImg = document.getElementById("modal-img");
+        modalImg.src = imgs.src;
+        modal.style.display = "block";
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+</script>
+
+
 </html>

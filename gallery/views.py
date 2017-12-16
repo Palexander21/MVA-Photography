@@ -12,7 +12,7 @@ def get_random_photos():
     random.shuffle(it)
     photo_list = Photo.objects.all()
     new_list = []
-    for i in range(15):
+    for i in range(20):
         new_list.append(photo_list[it[i]])
     return new_list
 
