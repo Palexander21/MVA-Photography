@@ -18,5 +18,6 @@ from . import views
 
 app_name = 'gallery'
 urlpatterns = [
-    url(r'^$', views.IndexView.as_view(), name='index')
+    url(r'^$', views.IndexView.as_view(), name='index'),
+    url(r'^gallery/', views.GalleryView.as_view(), name='gallery')
 ]
