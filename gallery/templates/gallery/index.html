@@ -19,9 +19,9 @@
     qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
+      <p><b><i class="fa fa-user w3-margin-right"></i>Madison Viktoria Alexander</b></p><br>
         {% load static %}
-      <img src="{% static 'gallery/images/winter4.jpg' %}" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <img src="{% static 'gallery/images/profile.jpg' %}" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -30,38 +30,6 @@
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
-    Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
   </div>
 </div>
 
@@ -75,26 +43,26 @@
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Here are some of my favorite pictures.<br> Click to expand</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
       {% for image in image_list %}
         {% if forloop.counter < 4 %}
             <div class="w3-col m3">
-                <img src="{{ image.image.url }}" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+                <img src="{{ image.image.url }}" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity port-img" alt="{{ image.image.caption }}">
             </div>
         {% if forloop.counter == 5 %}
             <div class="w3-row-padding w3-center w3-section">
         {% endif %}
         {% elif forloop.counter < 8 %}
             <div class="w3-col m3">
-                <img src="{{ image.image.url }}" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+                <img src="{{ image.image.url }}" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity port-img" alt="{{ image.image.caption }}">
             </div>
         {% endif %}
       {% endfor %}
       </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+      <a href="{% url 'gallery:gallery' %}"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">GALLERY</button></a>
   </div>
 </div>
 
@@ -114,9 +82,26 @@
   </div>
 </div>
 
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64 w3-center" id="contact">
+    <h3 class="w3-center">CONTACT ME</h3>
+    <p class="w3-center"><em>I'd love your feedback!</em></p>
+    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Rupert, ID<br>
+    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (208)-555-5555<br>
+    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@gmail.com<br>
+</div>
+
 <script>
 
 // Modal Image Gallery
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
@@ -147,82 +132,4 @@ function toggleFunction() {
 </script>
 
 {% endblock %}
-
-
-
-
-
-
-
-
-{#{% extends 'gallery/base.html' %}#}
-{#{% block title %} Home {% endblock %}#}
-{##}
-{#{% block content %}#}
-{#    <main class="main-view">#}
-{#        <div class="img-list row">#}
-{#            <div class="col">#}
-{#                {% for image in image_list %}#}
-{#                    <img src="{{ image.image.url }}" alt="{{ image.description }}" id="coverImg{{ forloop.counter }}" class="img-img-list" onclick="openImg(this);">#}
-{#                {% endfor %}#}
-{#           </div>#}
-{#        </div>#}
-{#        <!-- The Modal -->#}
-{#        <div id="myModal" class="modal">#}
-{#          <span class="close">&times;</span>#}
-{#            <!-- Next and previous buttons -->#}
-{#          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>#}
-{#          <a class="next" onclick="plusSlides(1)">&#10095;</a>#}
-{#          <img class="modal-content" id="modal-img">#}
-{#          <div id="caption"></div>#}
-{#        </div>#}
-{#    </main>#}
-{##}
-{##}
-{#<script>#}
-{#    function openImg(imgs) {#}
-{#        modal = document.getElementById('myModal');#}
-{#        var modalImg = document.getElementById("modal-img");#}
-{#        modalImg.src = imgs.src;#}
-{#        modal.style.display = "block";#}
-        {#currentSlide(index);#}
-{#    }#}
-{##}
-{#    // Get the <span> element that closes the modal#}
-{#    var span = document.getElementsByClassName("close")[0];#}
-{##}
-{#    // When the user clicks on <span> (x), close the modal#}
-{#    span.onclick = function() {#}
-{#        modal.style.display = "none";#}
-{#    };#}
-    {#var slideIndex = 1;#}
-    {#showSlides(slideIndex);#}
-    {##}
-    {#// Next/previous controls#}
-    {#function plusSlides(n) {#}
-    {#  showSlides(slideIndex += n);#}
-{##}
-    {##}
-    {#// Thumbnail image controls#}
-    {#function currentSlide(n) {#}
-    {#  showSlides(slideIndex = n);#}
-{##}
-    {##}
-    {#function showSlides(n) {#}
-    {#  var i;#}
-    {#  var slides = document.getElementsByClassName("img-img-list");#}
-    {#  var dots = document.getElementsByClassName("img-img-list");#}
-    {#  if (n > slides.length) {slideIndex = 1}#}
-    {#  if (n < 1) {slideIndex = slides.length}#}
-    {#  for (i = 0; i < slides.length; i++) {#}
-    {#    slides[i].style.display = "none";#}
-    {#  }#}
-    {#  for (i = 0; i < dots.length; i++) {#}
-    {#    dots[i].className = dots[i].className.replace(" active", "");#}
-    {#  }#}
-    {#  slides[slideIndex-1].style.display = "block";#}
-    {#  dots[slideIndex-1].className += " active";#}
-{#</script>#}
-{#{% endblock %}#}
-
 

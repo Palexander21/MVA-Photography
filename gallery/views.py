@@ -28,7 +28,7 @@ class IndexView(generic.ListView):
 class GalleryView(generic.ListView):
     template_name = 'gallery/gallery.html'
     context_object_name = 'image_list'
+    colSize = Photo.objects.count() // 3
 
     def get_queryset(self):
-        return get_random_photos(8)
-        # return Gallery.objects.get(title='Cover Photos').latest()
+        return Photo.objects.is_public()
