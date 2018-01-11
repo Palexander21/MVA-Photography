@@ -25,65 +25,15 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57459676">
+    <splitter split-orientation="horizontal" split-proportion="0.70120025">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
-                  <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#4;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-                    <marker date="1514245214318" expanded="false" signature="7657:7664" ph="×" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gallery_list.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/gallery_list.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/gallery/base.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="780">
-                  <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#2398#2404#0#HTML" expanded="true" />
-                    <element signature="e#2465#2471#0#HTML" expanded="true" />
-                    <marker date="1514268285117" expanded="false" signature="2893:2931" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/gallery.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1635">
-                  <caret line="109" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="268" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#5879#5897#0#HTML" expanded="true" />
-                    <element signature="e#6227#6245#0#HTML" expanded="true" />
-                    <marker date="1514230618616" expanded="false" signature="6476:6486" ph="..." />
-                    <marker date="1514230618616" expanded="false" signature="6654:6664" ph="..." />
-                    <marker date="1514230618616" expanded="false" signature="6832:6842" ph="..." />
-                    <marker date="1514230618616" expanded="false" signature="7018:7028" ph="..." />
-                    <marker date="1514230618616" expanded="false" signature="7188:7198" ph="..." />
-                    <marker date="1514230618616" expanded="false" signature="7375:7385" ph="..." />
-                    <marker date="1514230618616" expanded="false" signature="7558:7568" ph="..." />
-                  </folding>
+                <state relative-caret-position="360">
+                  <caret line="30" column="118" lean-forward="false" selection-start-line="30" selection-start-column="118" selection-end-line="30" selection-end-column="118" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -91,8 +41,8 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gallery/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+                <state relative-caret-position="435">
+                  <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -100,54 +50,62 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/gallery/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="30" column="2" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gallery/urls.py">
+            <entry file="file://$PROJECT_DIR$/maddies_site/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <state relative-caret-position="240">
+                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/views.py">
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/maddies_site/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="420">
+                  <caret line="29" column="76" lean-forward="false" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/models.py">
+          <file leaf-file-name="settings_build.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/maddies_site/settings_build.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="420">
+                  <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="76" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="photo_archive.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/photo_archive.html">
+          <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/maddies_site/wsgi.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="210">
+                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gallery/static/gallery/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <marker date="1514268408581" expanded="true" signature="337:420" ph="{...}" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -159,47 +117,42 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gallery/static/gallery/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="605">
-                  <caret line="238" column="22" lean-forward="false" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="22" />
+                <state relative-caret-position="231">
+                  <caret line="209" column="41" lean-forward="false" selection-start-line="209" selection-start-column="41" selection-end-line="209" selection-end-column="41" />
                   <folding>
-                    <marker date="1514268408581" expanded="true" signature="337:420" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/gallery.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#1536#1563#0#HTML" expanded="true" />
-                    <element signature="e#4107#4124#0#HTML" expanded="true" />
-                    <element signature="e#4308#4325#0#HTML" expanded="true" />
-                    <element signature="e#4507#4524#0#HTML" expanded="true" />
-                    <element signature="e#7712#7735#0#HTML" expanded="true" />
-                    <element signature="e#8832#8864#0#HTML" expanded="true" />
-                    <element signature="e#9490#9522#0#HTML" expanded="true" />
-                    <marker date="1514230618616" expanded="true" signature="76:12491" ph="{% block content ... %}" />
-                    <marker date="1514230618616" expanded="true" signature="95:12475" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="96:12475" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6000:6400" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6429:6570" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6476:6486" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6607:6748" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6654:6664" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6785:6925" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6832:6842" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6943:7762" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="6971:7108" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="7018:7028" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="7141:7291" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="7188:7198" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="7328:7474" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="7375:7385" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="7511:7647" ph="..." />
-                    <marker date="1514230618616" expanded="true" signature="7558:7568" ph="..." />
+                    <marker date="1515127566956" expanded="true" signature="67:196" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="212:247" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="261:379" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="398:499" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="398:502" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="522:607" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="618:673" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="688:723" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="738:810" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="820:957" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="971:1044" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1103:1176" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1215:1358" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1235:1303" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1317:1352" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1397:1672" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1417:1460" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1478:1514" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1527:1563" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1577:1613" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1690:1776" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="1862:2313" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="2366:2465" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="2510:2661" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="2691:2780" ph="..." />
+                    <marker date="1515127566956" expanded="true" signature="2802:2875" ph="..." />
+                    <marker date="1515127566956" expanded="true" signature="2915:3092" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="3129:3213" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="3306:3373" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="3331:3367" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="3429:3726" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="3788:3845" ph="{...}" />
+                    <marker date="1515127566956" expanded="true" signature="3959:4010" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -219,8 +172,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo</find>
       <find>w3-hide-small</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -237,16 +190,19 @@
         <option value="$PROJECT_DIR$/main/utils.py" />
         <option value="$PROJECT_DIR$/photologue_custom/models.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/maddies_site/settings.py" />
-        <option value="$PROJECT_DIR$/maddies_site/urls.py" />
         <option value="$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/root.html" />
         <option value="$PROJECT_DIR$/gallery/static/gallery/gallery.html" />
         <option value="$PROJECT_DIR$/gallery/urls.py" />
         <option value="$PROJECT_DIR$/gallery/views.py" />
-        <option value="$PROJECT_DIR$/gallery/templates/gallery/gallery.html" />
-        <option value="$PROJECT_DIR$/gallery/templates/gallery/index.html" />
-        <option value="$PROJECT_DIR$/templates/gallery/base.html" />
+        <option value="$PROJECT_DIR$/gallery/models.py" />
+        <option value="$PROJECT_DIR$/gallery/admin.py" />
         <option value="$PROJECT_DIR$/gallery/static/gallery/main.css" />
+        <option value="$PROJECT_DIR$/templates/gallery/base.html" />
+        <option value="$PROJECT_DIR$/gallery/templates/gallery/index.html" />
+        <option value="$PROJECT_DIR$/maddies_site/urls.py" />
+        <option value="$PROJECT_DIR$/maddies_site/settings_build.py" />
+        <option value="$PROJECT_DIR$/maddies_site/settings.py" />
+        <option value="$PROJECT_DIR$/gallery/templates/gallery/gallery.html" />
       </list>
     </option>
   </component>
@@ -288,124 +244,14 @@
             <path>
               <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="python3.5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="python3.5" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="python3.5" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="photologue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="python3.5" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="photologue" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="python3.5" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="photologue" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="photologue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maddies_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maddies_site" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="python3.5" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="photologue" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="photologue" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,6 +264,10 @@
       <recent name="$PROJECT_DIR$/gallery/templates/gallery" />
       <recent name="$PROJECT_DIR$/templates/gallery" />
       <recent name="$PROJECT_DIR$/photologue_custom" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/maddies_site" />
+      <recent name="$PROJECT_DIR$/gallery/static/gallery/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,15 +331,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23301986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15047021" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1249309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20062695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40870616" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -499,6 +349,29 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49806523" order="12" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23301986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15047021" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1249309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49806523" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -513,69 +386,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <marker date="1514245214318" expanded="false" signature="7657:7664" ph="×" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/static/gallery/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1514268408581" expanded="true" signature="337:420" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maddies_site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#311#320#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photologue_custom/models.py" />
-    <entry file="file://$PROJECT_DIR$/photologue_custom/admin.py" />
-    <entry file="file://$PROJECT_DIR$/maddies_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#641#673#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photologue_custom/urls.py" />
-    <entry file="file://$PROJECT_DIR$/photologue_custom/utils.py" />
-    <entry file="file://$PROJECT_DIR$/gallery/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -588,7 +403,39 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514268408581" expanded="true" signature="337:420" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="67:196" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="212:247" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="261:379" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="398:499" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="398:502" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="522:607" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="618:673" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="688:723" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="738:810" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="820:957" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="971:1044" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1103:1176" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1215:1358" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1235:1303" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1317:1352" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1397:1672" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1417:1460" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1478:1514" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1527:1563" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1577:1613" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1690:1776" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1862:2313" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="2366:2465" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="2510:2661" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="2691:2780" ph="..." />
+            <marker date="1515127566956" expanded="true" signature="2802:2875" ph="..." />
+            <marker date="1515127566956" expanded="true" signature="2915:3092" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3129:3213" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3306:3373" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3331:3367" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3429:3726" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3788:3845" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3959:4010" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -597,9 +444,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="e#311#320#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -607,9 +452,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#641#673#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -624,9 +467,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="e#311#320#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -634,9 +475,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="23" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#641#673#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -647,21 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photologue_custom/admin.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/photo_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photologue_custom/utils.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/sortedm2m/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,20 +510,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/photologue_custom/urls.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/sitemaps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3610">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -708,30 +519,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photologue_custom/tests.py" />
     <entry file="file://$PROJECT_DIR$/photologue_custom/models.py" />
-    <entry file="file://$PROJECT_DIR$/gallery/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maddies_site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-          <folding>
-            <element signature="e#311#320#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -739,24 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maddies_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding>
-            <element signature="e#641#673#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/photo_archive_day.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/gallery_archive.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -770,22 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/root.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/photo_archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templatetags/photologue_tags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -793,6 +547,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="3251" column="4" lean-forward="false" selection-start-line="3251" selection-start-column="4" selection-end-line="3251" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/static/gallery/font-awesome.css" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/tags/next_in_gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -800,11 +584,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/models.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/tags/prev_in_gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/root.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/photo_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/photo_archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/static/gallery/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="209" column="41" lean-forward="false" selection-start-line="209" selection-start-column="41" selection-end-line="209" selection-end-column="41" />
+          <folding>
+            <marker date="1515127566956" expanded="true" signature="67:196" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="212:247" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="261:379" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="398:499" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="398:502" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="522:607" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="618:673" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="688:723" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="738:810" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="820:957" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="971:1044" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1103:1176" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1215:1358" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1235:1303" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1317:1352" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1397:1672" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1417:1460" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1478:1514" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1527:1563" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1577:1613" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1690:1776" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="1862:2313" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="2366:2465" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="2510:2661" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="2691:2780" ph="..." />
+            <marker date="1515127566956" expanded="true" signature="2802:2875" ph="..." />
+            <marker date="1515127566956" expanded="true" signature="2915:3092" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3129:3213" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3306:3373" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3331:3367" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3429:3726" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3788:3845" ph="{...}" />
+            <marker date="1515127566956" expanded="true" signature="3959:4010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/gallery_archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/gallery_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/gallery_archive_year.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/photo_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3375">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/sitemaps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/tests/test_photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -816,100 +736,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/photologue/templates/photologue/gallery_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#1536#1563#0#HTML" expanded="true" />
-            <element signature="e#4107#4124#0#HTML" expanded="true" />
-            <element signature="e#4308#4325#0#HTML" expanded="true" />
-            <element signature="e#4507#4524#0#HTML" expanded="true" />
-            <element signature="e#7712#7735#0#HTML" expanded="true" />
-            <element signature="e#8832#8864#0#HTML" expanded="true" />
-            <element signature="e#9490#9522#0#HTML" expanded="true" />
-            <marker date="1514230618616" expanded="true" signature="76:12491" ph="{% block content ... %}" />
-            <marker date="1514230618616" expanded="true" signature="95:12475" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="96:12475" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6000:6400" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6429:6570" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6476:6486" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6607:6748" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6654:6664" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6785:6925" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6832:6842" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6943:7762" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="6971:7108" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="7018:7028" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="7141:7291" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="7188:7198" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="7328:7474" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="7375:7385" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="7511:7647" ph="..." />
-            <marker date="1514230618616" expanded="true" signature="7558:7568" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="435">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gallery/base.html">
+    <entry file="file://$PROJECT_DIR$/maddies_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#2398#2404#0#HTML" expanded="true" />
-            <element signature="e#2465#2471#0#HTML" expanded="true" />
-            <marker date="1514268285117" expanded="false" signature="2893:2931" ph="..." />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maddies_site/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maddies_site/settings_build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maddies_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="76" lean-forward="false" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <marker date="1514245214318" expanded="false" signature="7657:7664" ph="×" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/static/gallery/main.css">
+    <entry file="file://$PROJECT_DIR$/templates/gallery/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="238" column="22" lean-forward="false" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="22" />
-          <folding>
-            <marker date="1514268408581" expanded="true" signature="337:420" ph="{...}" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="118" lean-forward="false" selection-start-line="30" selection-start-column="118" selection-end-line="30" selection-end-column="118" />
+          <folding />
         </state>
       </provider>
     </entry>
