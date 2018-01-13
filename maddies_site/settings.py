@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 from photologue import PHOTOLOGUE_APP_DIR
+from platform import node
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -20,14 +21,18 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = '9s1!wakz4fn7rq9wxco7t1i_zxkhq%zgms2=_j@^o4w5=t3u*q'
-with open('/home/paxton/PycharmProjects/key.txt') as f:
-    SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ['www.mvaphotography.com', 'mvaphotography.com', '127.0.0.1']
+if node() == 'intellidev':
+    DEBUG = False
+    ALLOWED_HOSTS = ['www.mvaphotography.com', 'mvaphotography.com', '127.0.0.1']
+    with open('/home/iddesigns/key.txt') as f:
+        SECRET_KEY = f.read().strip()
+else:
+    DEBUG = True
+    ALLOWED_HOSTS = ['127.0.0.1']
+    with open('/home/paxton/PycharmProjects/key.txt') as f:
+        SECRET_KEY = f.read().strip()
 
 ADMINS = [('Paxton', 'paxtonalexander2113@gmail.com')]
 # Application definition
@@ -134,4 +139,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/home/paxton/PycharmProjects/maddies_site/gallery/media/'
+if node() == 'intellidev':
+    MEDIA_ROOT = '/var/www/mvaphotography.com/MVA-Photography/gallery/media'
+else:
+    MEDIA_ROOT = '/home/paxton/PycharmProjects/maddies_site/gallery/media/'

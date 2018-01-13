@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e77bed9b-d483-4f5a-8bca-37848017aacb" name="Intellidev" url="http://mvaphotography.com">
+        <fileTransfer host="mvaphotography.com" port="22" rootFolder="/var/www/mvaphotography.com/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
