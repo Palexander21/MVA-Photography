@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#! /var/www/mvaphotography.com/public_html/MVA-Photography/venv/bin/python
 import os
 import sys
 
