@@ -137,7 +137,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 STATICFILES_DIRS = [
-        '/var/www/mvaphotography.com/public_html/MVA-Photography/gallery/static/gallery/'        ]
+        '/var/www/mvaphotography.com/public_html/MVA-Photography/gallery/static/gallery/']
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 if node() == 'intellidev':
